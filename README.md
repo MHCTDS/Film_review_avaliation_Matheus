@@ -2,7 +2,7 @@ Film_review_avaliation
 ==============================
 
 Avalia se criticas de filmes em ingles são positivas ou negativas.
-Analise esta completa, mas falta eu organizar um arquivo final no notebook e html, alem de fazer uma versão so com a analise de dados.
+Falta colocar todas as colunas em referencias explicadas.
 
 Project Organization
 ------------
