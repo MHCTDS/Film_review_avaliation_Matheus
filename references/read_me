@@ -7,3 +7,16 @@ Aqui está a descrição de alguns campos :
 review: o texto da resenha
 pos: o objetivo, '0' para negativo e '1' para positivo
 ds_part: 'train'/'test' para a parte de treinamento/teste do conjunto de dados, respectivamente
+title_type:     
+primary_title:   
+original_title:   
+start_year:       
+end_year:       
+runtime_minutes:  
+is_adult: Se é um filme adulto, para maiores de 18 anos, ou não.        
+genres:          
+average_rating:   
+votes:                   
+rating: A pontuação dada por cada critica do filme, de 1 a 10            
+sp:                                
+idx:      

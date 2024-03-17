@@ -7542,7 +7542,7 @@ a.anchor-link {
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -7571,6 +7571,20 @@ a.anchor-link {
 
 <span class="n">nlp</span> <span class="o">=</span> <span class="n">spacy</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="s1">'en_core_web_sm'</span><span class="p">,</span> <span class="n">disable</span><span class="o">=</span><span class="p">[</span><span class="s1">'parser'</span><span class="p">,</span> <span class="s1">'ner'</span><span class="p">])</span>
 </pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
+<pre>/Users/mhctds/Library/Python/3.11/lib/python/site-packages/tqdm/auto.py:21: TqdmWarning: IProgress not found. Please update jupyter and ipywidgets. See https://ipywidgets.readthedocs.io/en/stable/user_install.html
+  from .autonotebook import tqdm as notebook_tqdm
+</pre>
 </div>
 </div>
 </div>
@@ -7913,31 +7927,6 @@ memory usage: 6.5+ MB
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Armazenando-os-dados-processados">Armazenando os dados processados<a class="anchor-link" href="#Armazenando-os-dados-processados">¶</a></h3>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">df_reviews</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="s1">'/Users/mhctds/Film_review_avaliation_Matheus/data/processed/imdb_reviews.tsv'</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s1">'</span><span class="se">\t</span><span class="s1">'</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h2 id="AED">AED<a class="anchor-link" href="#AED">¶</a></h2>
 </div>
 </div>
@@ -8206,25 +8195,25 @@ Name: count, dtype: int64</pre>
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>/var/folders/6m/8zrf46xx10z087pclwk1njth0000gn/T/ipykernel_1606/364716119.py:14: UserWarning: 
+<pre>/var/folders/6m/8zrf46xx10z087pclwk1njth0000gn/T/ipykernel_928/364716119.py:14: UserWarning: 
 
 Support for alternate kernels has been removed; using Gaussian kernel.
 This will become an error in seaborn v0.14.0; please update your code.
 
   sns.kdeplot(dft[0], color='blue', label='negative', kernel='epa', ax=ax)
-/var/folders/6m/8zrf46xx10z087pclwk1njth0000gn/T/ipykernel_1606/364716119.py:15: UserWarning: 
+/var/folders/6m/8zrf46xx10z087pclwk1njth0000gn/T/ipykernel_928/364716119.py:15: UserWarning: 
 
 Support for alternate kernels has been removed; using Gaussian kernel.
 This will become an error in seaborn v0.14.0; please update your code.
 
   sns.kdeplot(dft[1], color='green', label='positive', kernel='epa', ax=ax)
-/var/folders/6m/8zrf46xx10z087pclwk1njth0000gn/T/ipykernel_1606/364716119.py:30: UserWarning: 
+/var/folders/6m/8zrf46xx10z087pclwk1njth0000gn/T/ipykernel_928/364716119.py:30: UserWarning: 
 
 Support for alternate kernels has been removed; using Gaussian kernel.
 This will become an error in seaborn v0.14.0; please update your code.
 
   sns.kdeplot(dft[0], color='blue', label='negative', kernel='epa', ax=ax)
-/var/folders/6m/8zrf46xx10z087pclwk1njth0000gn/T/ipykernel_1606/364716119.py:31: UserWarning: 
+/var/folders/6m/8zrf46xx10z087pclwk1njth0000gn/T/ipykernel_928/364716119.py:31: UserWarning: 
 
 Support for alternate kernels has been removed; using Gaussian kernel.
 This will become an error in seaborn v0.14.0; please update your code.
@@ -8435,7 +8424,13 @@ This will become an error in seaborn v0.14.0; please update your code.
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>100%|██████████| 47329/47329 [00:43&lt;00:00, 1089.96it/s]
+<pre>  0%|          | 0/47329 [00:00&lt;?, ?it/s]</pre>
+</div>
+</div>
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
+<pre>100%|██████████| 47329/47329 [00:42&lt;00:00, 1125.60it/s]
 </pre>
 </div>
 </div>
@@ -8630,7 +8625,7 @@ ROC AUC     0.5   0.5
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Modelo-1---NLTK,-TF-IDF-e-Regress%C3%A3o-Linear">Modelo 1 - NLTK, TF-IDF e Regressão Linear<a class="anchor-link" href="#Modelo-1---NLTK,-TF-IDF-e-Regress%C3%A3o-Linear">¶</a></h3>
+<h3 id="Modelo-1---NLTK,-TF-IDF-e-Regress%C3%A3o-Logistica">Modelo 1 - NLTK, TF-IDF e Regressão Logistica<a class="anchor-link" href="#Modelo-1---NLTK,-TF-IDF-e-Regress%C3%A3o-Logistica">¶</a></h3>
 </div>
 </div>
 </div>
@@ -8742,7 +8737,7 @@ ROC AUC    0.98  0.95
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Modelo-2---spaCy,-TF-IDF-e-Regress%C3%A3o-Linear">Modelo 2 - spaCy, TF-IDF e Regressão Linear<a class="anchor-link" href="#Modelo-2---spaCy,-TF-IDF-e-Regress%C3%A3o-Linear">¶</a></h3>
+<h3 id="Modelo-2---spaCy,-TF-IDF-e-Regress%C3%A3o-Logistica">Modelo 2 - spaCy, TF-IDF e Regressão Logistica<a class="anchor-link" href="#Modelo-2---spaCy,-TF-IDF-e-Regress%C3%A3o-Logistica">¶</a></h3>
 </div>
 </div>
 </div>
@@ -8797,7 +8792,7 @@ ROC AUC    0.98  0.95
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>100%|██████████| 47329/47329 [12:41&lt;00:00, 62.11it/s] 
+<pre>100%|██████████| 47329/47329 [12:47&lt;00:00, 61.70it/s] 
 </pre>
 </div>
 </div>
@@ -8945,7 +8940,7 @@ ROC AUC    0.98  0.95
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
 <pre>[LightGBM] [Info] Number of positive: 11884, number of negative: 11912
-[LightGBM] [Info] Auto-choosing row-wise multi-threading, the overhead of testing was 0.649528 seconds.
+[LightGBM] [Info] Auto-choosing row-wise multi-threading, the overhead of testing was 0.655631 seconds.
 You can set `force_row_wise=true` to remove the overhead.
 And if memory is not enough, you can set `force_col_wise=true`.
 [LightGBM] [Info] Total Bins 461943
@@ -9393,7 +9388,7 @@ ROC AUC    0.97  0.94
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>O motivo da diferença dos resultados nas resenhas para o banco de dados provavelmente vem do fato de estarem em linguagems diferentes, assim o "dicionario" em que o modelo foi treinado não inclui as palavras em portugues</p>
 <p>Alguns filmes tem muito mais resenhas que outros, provavelmente por serem mais populares, mas alem de desequilibrar a classe, isso pode levar a uma limitação do vocabulario do modelo</p>
-<p>E alguns anos tambem tem muitos mais filmes que outros, com uma faixa de</p>
+<p>E alguns anos tambem tem muitos mais filmes que outros, com uma faixa de 1999 a 2009, 10 anos, como pico</p>
 </div>
 </div>
 </div>
